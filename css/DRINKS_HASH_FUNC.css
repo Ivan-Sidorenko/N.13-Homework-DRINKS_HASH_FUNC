@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap{
+    margin-top: 50px;
+    height: 70px;
+    display: flex;
+}
+
+.box{
+    width: 250px;
+    height: 70px;
+    border: 2px solid green;
+    border-radius: 35% 35% 35% 35%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0 0 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #2F4F4F;
+}
+
+.one{
+    border-color: #CD5C5C;
+    background-color: #F08080;
+    transition: 0.5s;
+}
+
+.one:hover{
+    width: 250px;
+    height: 80px;
+    cursor: pointer;
+    margin-top: -5px;
+    padding: 25px 0 0 0;
+    color: black;
+}
+
+.two{
+    border-color: #FF6347;
+    background-color: #FFA07A;
+    transition: 0.5s;
+}
+
+.two:hover{
+    width: 250px;
+    height: 80px;
+    cursor: pointer;
+    margin-top: -5px;
+    padding: 25px 0 0 0;
+    color: black;
+}
+
+.three{
+    border-color: #9370DB;
+    background-color: #E6E6FA;
+    transition: 0.5s;
+}
+
+.three:hover{
+    width: 250px;
+    height: 80px;
+    cursor: pointer;
+    margin-top: -5px;
+    padding: 25px 0 0 0;
+    color: black;
+}
+
+.four{
+    border-color: #8B4513;
+    background-color: #CD853F;
+    transition: 0.5s;
+}
+
+.four:hover{
+    width: 250px;
+    height: 80px;
+    cursor: pointer;
+    margin-top: -5px;
+    padding: 25px 0 0 0;
+    color: black;
+}
